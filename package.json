@@ -1,0 +1,44 @@
+{
+  "name": "webiridium-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that lets Claude Code drive the WebIridium simulator open in your browser",
+  "type": "module",
+  "bin": {
+    "webiridium-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.1",
+    "ws": "^8.18.2"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-code",
+    "webiridium",
+    "antimony",
+    "systems-biology"
+  ],
+  "author": "Long Nguyenle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lognguyenle/webiridium-mcp.git"
+  },
+  "homepage": "https://github.com/lognguyenle/webiridium-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/lognguyenle/webiridium-mcp/issues"
+  }
+}
