@@ -1,6 +1,6 @@
 {
   "name": "webiridium-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server that lets Claude Code drive the WebIridium simulator open in your browser",
   "type": "module",
   "bin": {
